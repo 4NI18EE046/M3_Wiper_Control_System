@@ -1,9 +1,5 @@
 # M3_Wiper_Control_System
 
-|Codiga Badges|
-|:--:
-|![Codiga badge](https://api.codiga.io/project/31951/score/svg) ![Codiga badge](https://api.codiga.io/project/31951/status/svg)
-
 # Folder Structure
 Wiper_Control_System| Description
 -------------------| -----------------------------------------
