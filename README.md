@@ -1,6 +1,6 @@
 # M3_Wiper_Control_System
 
-# Folder Structure
+## Folder Structure
 Wiper_Control_System| Description
 -------------------| -----------------------------------------
 `0_Abstract`       | Documents detailing abstract of the project
