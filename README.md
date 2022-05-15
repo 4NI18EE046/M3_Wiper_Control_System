@@ -7,7 +7,7 @@
 # Folder Structure
 Wiper_Control_System| Description
 -------------------| -----------------------------------------
-'0_Abstract'       | Documents detailing abstract of the project
+`0_Abstract`       | Documents detailing abstract of the project
 `1_Requirements`   | Documents detailing requirements and research
 `2_Design`         | Documents specifying design details
 `3_Implementation` | All code and documentation
