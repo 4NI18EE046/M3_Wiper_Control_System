@@ -8,7 +8,8 @@
    3. Wiper OFF: Wiper is ON: The LED glow pattern stops on the 4th press; the wiper action starts next press onwards as mentioned in step 2
    4. Ignition Key Position at Lock: The Red LED is OFF, if the user button is pressed and held for 2 secs
 
-# HIGH LEVEL REQUIREMENTS
+# REQUIREMENTS
+## High level requirements
 
 | Sl.No |       High level requirements	|	Description		|  Category  |
 |:-----:|		   :---------:		|	:---------:		| :-------: |
@@ -19,7 +20,7 @@
 |   5   |     HLR5      |   When switch is flicked 5 times wiper turns off           |   Technical |
 |   6   |     HLR6      |   When switch is flicked 6 times engine turns off          |   Technical |
 
-# LOW LEVEL REQUIREMENTS
+## Low level requirements
 
 | Sl.No |       Low level requirements	|	Description		|  Category   |
 |:-----:|		   :---------:		|	:---------:		| :-------: |
@@ -30,7 +31,8 @@
 |   5   |     LLR5      | BLUE ORANGE GREEN Led turns off when switch is flicked 5 times                          |   Technical |
 |   6   |     LLR6      | RED Led turns off when switch is flicked 6 times                                        |   Technical |
 
-# ARCHITECTURE
+
+# DESIGN
 ## Structural Diagram
 
 ![structural dia](https://user-images.githubusercontent.com/101051555/168416280-9b79da43-0bb0-4c5d-9c3b-c9b5a468240d.PNG)
