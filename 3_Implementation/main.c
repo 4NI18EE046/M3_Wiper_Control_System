@@ -67,29 +67,29 @@ void wiperON1()
         delay(60000);
     	HAL_GPIO_WritePin(GPIOD, GPIO_PIN_15, GPIO_PIN_SET);   	// blue ON
     	delay(60000);
-   	    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_15, GPIO_PIN_RESET);	// blue OFF
+   	HAL_GPIO_WritePin(GPIOD, GPIO_PIN_15, GPIO_PIN_RESET);	// blue OFF
     	HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_SET);		// Green ON
     	delay(60000);
     	HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_RESET);	// Green OFF
     	HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_SET);		// orange ON
     	delay(60000);
-	    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_RESET);	// orange OFF
+	HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_RESET);	// orange OFF
 
     	HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_SET);		// orange ON
-	    delay(60000);
-	    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_RESET);	// orange OFF
-	    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_SET);		// Green ON
-	    delay(60000);
-	    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_RESET);   	// green OFF
-	    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_15, GPIO_PIN_SET);	// blue On
-	    delay(60000);
-	    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_15, GPIO_PIN_RESET);	// blue OFF
+	delay(60000);
+	HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_RESET);	// orange OFF
+        HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_SET);		// Green ON
+	delay(60000);
+	HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_RESET);   	// green OFF
+        HAL_GPIO_WritePin(GPIOD, GPIO_PIN_15, GPIO_PIN_SET);	// blue On
+	delay(60000);
+	HAL_GPIO_WritePin(GPIOD, GPIO_PIN_15, GPIO_PIN_RESET);	// blue OFF
 
 	    if(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0))
-	        		{
-	                    count +=1;
-	        			delay(1000);
-	        		}
+	    {
+	         count +=1;
+	         delay(1000);
+	     }
 }
 
 void wiperON2()
@@ -103,18 +103,19 @@ void wiperON2()
     		HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_RESET);	// Green OFF
     		HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_SET);		// orange ON
     		delay(15000);
-		    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_RESET);	// orange OFF
+		HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_RESET);	// orange OFF
     	 	delay(15000);
 
-		    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_SET);		// orange ON
-		    delay(15000);
-		    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_RESET);	// orange OFF
-		    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_SET);		// Green ON
-		    delay(15000);
-		    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_15, GPIO_PIN_SET);   	// blue ON
-		    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_RESET);	// Green OFF
-		    delay(15000);
-		    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_15, GPIO_PIN_RESET);	// blue OFF
+		HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_SET);		// orange ON
+		delay(15000);
+	        HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_RESET);	// orange OFF
+	        HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_SET);		// Green ON
+		delay(15000);
+		HAL_GPIO_WritePin(GPIOD, GPIO_PIN_15, GPIO_PIN_SET);   	// blue ON
+		HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_RESET);	// Green OFF
+		delay(15000);
+		HAL_GPIO_WritePin(GPIOD, GPIO_PIN_15, GPIO_PIN_RESET);	// blue OFF
+	
 		    if(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0))
 		    {
 		        count +=1;
@@ -132,24 +133,24 @@ void wiperON3()
     		HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_RESET);	// Green OFF
     		HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_SET);		// orange ON
     		delay(7500);
-		    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_RESET);	// orange OFF
+		HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_RESET);	// orange OFF
     		delay(7500);
 
-		    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_SET);		// orange ON
-		    delay(7500);
-		    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_RESET);	// orange OFF
-		    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_SET);		// Green ON
-		    delay(7500);
-		    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_15, GPIO_PIN_SET);   	// blue ON
-		    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_RESET);	// Green OFF
-		    delay(7500);
-		    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_15, GPIO_PIN_RESET);	// blue OFF
+		HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_SET);		// orange ON
+		delay(7500);
+		HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_RESET);	// orange OFF
+		HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_SET);		// Green ON
+	        delay(7500);
+		HAL_GPIO_WritePin(GPIOD, GPIO_PIN_15, GPIO_PIN_SET);   	// blue ON
+		HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_RESET);	// Green OFF
+		delay(7500);
+		HAL_GPIO_WritePin(GPIOD, GPIO_PIN_15, GPIO_PIN_RESET);	// blue OFF
 
 		    if(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0))
-		    		    {
-		    		        count +=1;
-		    		        delay(1000);
-		    		    }
+		    {
+		       count +=1;
+		       delay(1000);
+		    }
 }
 
 void wiperOFF()
